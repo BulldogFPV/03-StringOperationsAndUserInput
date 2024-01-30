@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (5 pts)
+# Done: 1. (5 pts)
 #   Immediately below this _TODO_, write code that:
 #     - Asks the user what their name is
 #     - Waits for the user to input their name and hit enter
@@ -27,7 +27,10 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+print('Username Login: ')
+name = input()
+greeting = f'Welcome back, {name}.'
+print(greeting)
 ###############################################################################
 # TODO: 2. (5 pt)
 #   Now you might be thinking, why didn't we just use concatenation to do this?
@@ -72,3 +75,7 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print("Security Checkpoint:\nWhat is the user's favorite number?")
+question = input()
+success = f'{name}, your favorite number is {question}. Access Approved' 
+print(success)
